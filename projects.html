@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Ashley Elowsky | Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ashley Elowsky</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Check out my work!</h1>
+      </div>
+
+   <!-- projects -->
+   <div class="card-deck">
+    <div class="card">
+      <h5 class="card-title text-center">Eye Exercise</h5>
+      <img class="card-img-top" src="images/preview.JPG" alt="Eye Exercise">
+      <div class="card-body">
+        <p class="card-text">This project uses vanilla JavaScript with 'onmousemove' event to trigger with the mouse
+           moving on the window to move the "pupils" around the eyes.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="https://elowskya.github.io/eyeExercise/">Check it out Live</a></small>
+        <small class="text-muted"><a href="https://github.com/elowskya/eyeExercise">Check out the code</a></small>
+    </div>
+    </div>
+    <div class="card">
+      <h5 class="card-title text-center">Real Time Bus Tracking</h5>
+      <img class="card-img-top" src="images/busTracker.JPG" alt="Bus Tracking">
+      <div class="card-body">
+        <p class="card-text">This project uses JavaScript with Mapbox, a cloud platform to display the map of 
+          Boston, MA and to render a marker based on the latitude and longitude of a bus route. The bus
+          route is between MIT and Harvard and the marker is set based on the position in the bus stops 
+          array which updates with a call back function when the button is clicked.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="http://somup.com/crjTnNr1ZR">Check it out Live</a></small>
+        <small class="text-muted"><a href="https://github.com/elowskya/Real-Time-Bus-Tracking">Check out the code</a></small>
+      </div>
+    </div>
+    <div class="card">
+      <h5 class="card-title text-center">PacMan Exercise</h5>
+      <img class="card-img-top" src="images/pacman.JPG" alt="Pacman Animation">
+      <div class="card-body">
+        <p class="card-text">This project uses primarily vanilla JavaScript with on click event, to generate a PacMan image at a 
+          random location within the window. The update function is called when the update button is clicked.
+        Pacman continue to randomly generate with each click of 'Add Pacman' and move on update button click.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><a href="">Check it out Live</a></small>
+        <small class="text-muted"><a href="https://github.com/elowskya/PacMen-Exercise">Check out the code</a></small>
+      </div>
+    </div>
+  </div>
+       
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
